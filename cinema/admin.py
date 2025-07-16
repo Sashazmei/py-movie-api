@@ -1,3 +1,5 @@
 from django.contrib import admin
+from .models import Movie
 
-# Register your models here.
+# Регистрируем модель Movie в админке
+admin.site.register(Movie)
